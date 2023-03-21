@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "envpool-bug"
+version = "0.1.0"
+description = ""
+authors = ["Costa Huang <costa.huang@outlook.com>"]
+readme = "README.md"
+packages = [{include = "envpool_bug"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+envpool = "^0.8.1"
+jax = "0.3.25"
+flax = "0.6.0"
+optax = "0.1.3"
+jaxlib = "0.3.25"
+huggingface-hub = "^0.13.3"
+gym = "0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
